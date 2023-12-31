@@ -18,7 +18,7 @@ Essa abordagem visa aprimorar a representação das informações, facilitando a
 
 -- Binarização da variável classe (0/1)
 
-	SELECT
+SELECT
 	CASE 
 		WHEN classe = 'no-recurrence-events' THEN 0
         	WHEN classe = 'recurrence-events' THEN 1
