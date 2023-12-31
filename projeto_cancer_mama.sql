@@ -26,6 +26,7 @@ SELECT
 FROM tb_dados
 
 -- Binarização da variável irradiando (0/1)
+
 SELECT
 	CASE
 		WHEN irradiando = 'no' THEN 0
@@ -34,6 +35,7 @@ SELECT
 FROM tb_dados
 
 -- Codificação da variável node_caps (0/1)
+
 SELECT
 	CASE 
 		WHEN node_caps = 'no' THEN 0
@@ -43,6 +45,7 @@ SELECT
 FROM tb_dados
 
 -- Categorização da variavel seio (E/D)
+
 SELECT 
 	CASE
 		WHEN seio = 'left' THEN 'E'
@@ -51,6 +54,7 @@ SELECT
 FROM tb_dados
 
 -- Categorização da variavel tamanho_tumor (6 Categorias)
+
 SELECT 
 	CASE
 		WHEN tamanho_tumor = '0-4' OR tamanho_tumor = '5-9' THEN 'Muito Pequeno'
@@ -63,6 +67,7 @@ SELECT
 FROM tb_dados
 
 -- Label Encoding da variavel quadrante (1,2,3,4,5)
+
 SELECT
 	CASE 
 		WHEN quadrante = 'left_low' THEN 1
@@ -75,6 +80,7 @@ SELECT
 FROM tb_dados
 
 -- Criação de um novo Dataset após as transformações
+
 CREATE TABLE cap03.tb_dados
 AS
 SELECT 
