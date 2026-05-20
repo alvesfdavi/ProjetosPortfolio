@@ -1,0 +1,11 @@
+ID_Fornecedor,Nome_Fornecedor,Segmento,UF
+FN-001,Fornecedor Alpha,Tecnologia,SP
+FN-002,Fornecedor Beta,Logística,RJ
+FN-003,Fornecedor Gamma,RH,MG
+FN-004,Fornecedor Delta,Infraestrutura,SP
+FN-005,Fornecedor Epsilon,Consultoria,RS
+FN-006,Fornecedor Zeta,Marketing,SP
+FN-007,Fornecedor Eta,Jurídico,PR
+FN-008,Fornecedor Theta,Financeiro,SP
+FN-009,Fornecedor Iota,Facilities,RJ
+FN-010,Fornecedor Kappa,TI,SP
