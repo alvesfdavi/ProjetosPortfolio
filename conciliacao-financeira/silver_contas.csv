@@ -1,9 +1,0 @@
-ID_Conta,Nome_Conta,Grupo_Conta,Centro_Custo
-CT-001,Contas a Pagar,Passivo,Financeiro
-CT-002,Caixa e Equivalentes,Ativo,Tesouraria
-CT-003,Fornecedores,Passivo,Operações
-CT-004,Despesas Operacionais,Resultado,Operações
-CT-005,Receitas de Serviços,Resultado,Comercial
-CT-006,Folha de Pagamento,Resultado,RH
-CT-007,Impostos a Recolher,Passivo,Fiscal
-CT-008,Empréstimos e Financiamentos,Passivo,Financeiro
