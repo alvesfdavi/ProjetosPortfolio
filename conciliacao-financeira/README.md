@@ -8,7 +8,7 @@ Conciliação financeira é um dos processos mais críticos de qualquer empresa 
 
 ## Arquitetura
 
-![Arquitetura](assets/arquitetura.png)
+![Arquitetura](/arquitetura.png)
 
 ## Stack
 
