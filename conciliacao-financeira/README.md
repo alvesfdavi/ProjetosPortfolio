@@ -30,73 +30,75 @@ Conciliação financeira é um dos processos mais críticos de qualquer empresa 
 ## Dashboard Power BI
 
 3 páginas interativas com navegação, filtros cruzados e formatação condicional, alimentadas pela camada Gold do Databricks.
-Páginas
-PáginaConteúdoVisão GeralKPIs, evolução mensal por status, lançamentos recentes e status atualDivergênciasRanking de fornecedores, divergência por canal, previsto vs realizado e aging de divergentesAgingDistribuição por faixa, top fornecedores com pendência e lançamentos pendentes em detalhe
 
-Medidas DAX
-Organizadas em 7 pastas por categoria dentro da tabela Medidas Dax:
-Medida Auxiliar
+### Páginas
 
-Ticket Médio Divergência (R$)
-Ticket Médio Divergência (R$) Formatada
+| Página | Conteúdo |
+|---|---|
+| Visão Geral | KPIs, evolução mensal por status, lançamentos recentes e status atual |
+| Divergências | Ranking de fornecedores, divergência por canal, previsto vs realizado e aging de divergentes |
+| Aging | Distribuição por faixa, top fornecedores com pendência e lançamentos pendentes em detalhe |
 
-Medidas Cards
+### Medidas DAX
 
-Card Sub Crítico Pendente
-Card Sub Divergentes
-Card Sub Pendentes
-Card Sub Taxa Conciliação
-Card Sub Total Lançamentos Conciliados
-Card Sub Total Lançamentos Divergentes
-Card Sub Total Pendente
-Cor Card MoM
-Cor Card Taxa Conciliação
-Cor Fonte Status
-Cor Fundo Status
-Cor Realizado
-Fornecedor Maior Aging Divergente
-Fornecedor Maior Aging Pendente
-ID Maior Aging Divergente
-Legenda Maior Aging Divergente
+Organizadas em 7 pastas por categoria dentro da tabela `Medidas Dax`:
 
-Medidas de Aging
+**Medida Auxiliar**
+- `Ticket Médio Divergência (R$)`
+- `Ticket Médio Divergência (R$) Formatada`
 
-% Crítico sobre Pendente
-Maior Aging (dias) Divergente
-Maior Aging (dias) Pendente
-Média Dias em Aberto Pendente
-Qtd Crítico +30 dias Pendente
-Valor Crítico +360 dias (R$) Pendente
-Valor Crítico +360 dias (R$) Pendente Formatada
+**Medidas Cards**
+- `Card Sub Crítico Pendente`
+- `Card Sub Divergentes`
+- `Card Sub Pendentes`
+- `Card Sub Taxa Conciliação`
+- `Card Sub Total Lançamentos Conciliados`
+- `Card Sub Total Lançamentos Divergentes`
+- `Card Sub Total Pendente`
+- `Cor Card MoM`
+- `Cor Card Taxa Conciliação`
+- `Cor Fonte Status`
+- `Cor Fundo Status`
+- `Cor Realizado`
+- `Fornecedor Maior Aging Divergente`
+- `Fornecedor Maior Aging Pendente`
+- `ID Maior Aging Divergente`
+- `Legenda Maior Aging Divergente`
 
-Medidas de Taxa
+**Medidas de Aging**
+- `% Crítico sobre Pendente`
+- `Maior Aging (dias) Divergente`
+- `Maior Aging (dias) Pendente`
+- `Média Dias em Aberto Pendente`
+- `Qtd Crítico +30 dias Pendente`
+- `Valor Crítico +360 dias (R$) Pendente`
+- `Valor Crítico +360 dias (R$) Pendente Formatada`
 
-% Taxa de Conciliação
-% Taxa Divergente
-% Taxa Pendente
+**Medidas de Taxa**
+- `% Taxa de Conciliação`
+- `% Taxa Divergente`
+- `% Taxa Pendente`
 
-Medidas de Volume
+**Medidas de Volume**
+- `Qtd Lançamentos`
+- `Total Conciliado (R$)`
+- `Total Divergente (R$)`
+- `Total Lançamentos (R$)`
+- `Total Pendente (R$)`
 
-Qtd Lançamentos
-Total Conciliado (R$)
-Total Divergente (R$)
-Total Lançamentos (R$)
-Total Pendente (R$)
+**Medidas em HTML**
+- `Distribuição Aging`
+- `Divergências Canal e Previsto Realizado`
+- `Gráfico Evolução Mensal`
+- `Status Atual`
+- `Top Fornecedores Divergência`
+- `Top Fornecedores Pendência`
 
-Medidas em HTML
-
-Status Atual
-Evolução Mensal
-Top Fornecedores Divergência
-Divergência por Canal
-Distribuição Aging
-Pendências por Fornecedor
-
-Medidas Time Intelligence
-Total Conciliado Mês Anterior (R$)
-Total Divergente Mês Anterior (R$)
-Var% Conciliação MoM
-Var% Divergente MoM
+**Medidas Time Intelligence**
+- `Total Conciliado Mês Anterior (R$)`
+- `Total Divergente Mês Anterior (R$)`
+- `Var% Conciliação MoM`
+- `Var% Divergente MoM`
 
 🔗 [Acessar dashboard](https://app.powerbi.com/view?r=eyJrIjoiNDE0NGUxYjQtMWZjYy00NTRmLTg4ZGUtNTEwYjkwNTNmYjU5IiwidCI6IjY0Y2Q5ODVhLTliM2ItNDA3MC04MTI5LTEyNzJiZmI1YTlmNyJ9)
 
